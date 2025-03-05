@@ -1,0 +1,14 @@
+titles (
+    show_id TEXT COMMENT 'Unique ID for every Movie / Tv Show', 
+    type TEXT COMMENT 'Identifier - A Movie or TV Show', 
+    title TEXT COMMENT 'Title of the Movie / Tv Show', 
+    director TEXT COMMENT 'Director of the Movie',
+    cast_in TEXT COMMENT 'Actors involved in the movie / show',
+    country TEXT COMMENT 'Country where the movie / show was produced',
+    date_added TEXT COMMENT 'Date it was added on Netflix in format Month day, year',
+    release_year number COMMENT 'Actual Release year of the move / show in number format',
+    rating TEXT COMMENT 'TV Rating of the movie / show',
+    duration TEXT COMMENT 'Total Duration - in minutes or number of seasons',
+    listed_in TEXT COMMENT 'Title genre like: Dramas, International Movies, Documentaries',
+    description TEXT COMMENT 'The summary description'
+)
